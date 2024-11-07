@@ -1,0 +1,43 @@
+CREAR VARIABLES CON SCANNER
+
+import java.util.Scanner;
+
+
+
+CREAR SCANNER:
+Scanner sc = new Scanner (System.in);
+
+EJEMPLO:
+System.out.print("Ingrese el curso del estudiante: ");
+String curso = sc.nextLine();
+System.out.println(curso);
+
+
+Para eliminar objetos de un ArrayList Java, utilizamos el método .remove() con la especificación del índice del elemento:
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("blue");
+        colors.add("red");
+        colors.add("green");
+        System.out.println("ArrayList: " + colors);
+        String color = colors.remove(1);
+        System.out.println("ArrayList: " + colors);
+        System.out.println("Removed Element: " + color);
+
+El resultado muestra la ArrayList modificada y el elemento eliminado:
+ArrayList: [blue, green]
+Removed Element: red
+
+
+El número de elementos de un ArrayList se puede calcular fácilmente con el método:
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("blue");
+        colors.add("red");
+        colors.add("green");
+        System.out.println(colors.size());
+
+Como resultado obtenemos:
+3
+
+
+
+
